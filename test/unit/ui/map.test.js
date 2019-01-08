@@ -1846,7 +1846,7 @@ test('Map', (t) => {
             });
         });
     });
-    
+
     t.test('#removeLayer restores Map#loaded() to true', (t) => {
         const map = createMap(t, {
             style: extend(createStyle(), {
